@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root {
+   --primaria1:hsl(215, 51%, 70%);
+   --primaria2:hsl(178, 100%, 50%);
+   --neutro1:hsl(217, 54%, 11%);
+   --neutro2:hsl(216, 50%, 16%);
+   --neutro3:hsl(215, 32%, 27%);
+   --neutro4:hsl(0, 0%, 100%);
+   --fontnormal: font-family: 'Outfit', sans-serif;
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   background-color: var(--neutro1);
+}
+
+#container {
+   width: 20%;
+   height: 70%;
+   position: relative;
+   border-radius: 4%;
+   background-color: var(--neutro2);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#img {
+   background-image: url(../images/image-equilibrium.jpg);
+   width: 100%;
+   height: 62%;
+   background-size: cover;
+}
+
+#content {
+   width: 100%;
+   height: 38%;
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
