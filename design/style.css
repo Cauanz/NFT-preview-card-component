@@ -52,6 +52,8 @@ body {
    width: 17%;
    min-height: 401.05px;
    min-width: 228.3px;
+   max-height: 401.05px;
+   max-width: 228.3px;
    background: var(--neutro2);
    border-radius: 9px;
    box-shadow: -10px 10px 10px var(--neutro1);
